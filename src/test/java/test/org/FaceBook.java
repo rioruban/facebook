@@ -16,10 +16,10 @@ public class FaceBook {
 		username.sendKeys("rio");
 
 		WebElement userpassword = driver.findElement(By.id("pass"));
-	//	userpassword.sendKeys("pass");
-	//	 driver.findElement(By.name("login")).click();
+		// userpassword.sendKeys("pass");
+		// driver.findElement(By.name("login")).click();
 		userpassword.sendKeys("pass");
-			 driver.findElement(By.name("login")).click();
+		driver.findElement(By.name("login")).click();
 
 	}
 
